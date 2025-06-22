@@ -1,6 +1,5 @@
 {
   "name": "pineapple-website",
-  "homepage": "https://pineappleinteractive.github.io/pineapple-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
