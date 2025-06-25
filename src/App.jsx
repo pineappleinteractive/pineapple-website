@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import logo from './assets/pin-int-logo-v03a.png';
+import logo from './assets/plogo.png';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <img src={logo} alt="Pineapple Interactive logo" width={'75%'} />
+      {/* <img src={logo} alt="Pineapple Interactive logo" width={'75%'} /> */}
       {/* <img src={PILogo} className="logo" alt="Pineapple Interactive logo" /> */}
       {/* <h1>Pineapple Interactive</h1> */}
       <div className="card">
