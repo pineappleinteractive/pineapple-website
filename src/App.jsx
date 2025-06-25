@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import PILogo from './assets/pin-int-logo-v03a.png';
+import PILogo from '/pin-int-logo-v03a.png';
 import './App.css'
 
 function App() {
