@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pineappleinteractive.github.io/pineapple-website",
+  "homepage": "https://www.pineapple-interactive.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

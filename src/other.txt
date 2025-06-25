@@ -19,3 +19,5 @@ return (
       </p>
     </>
   )
+
+  // "homepage": "https://pineappleinteractive.github.io/pineapple-website",
