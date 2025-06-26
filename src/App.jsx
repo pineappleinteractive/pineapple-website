@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import logo from './assets/plogo.png';
-import './App.css';
+import { useState } from 'react';
+import logo from './assets/plogo.png'
+import './App.css'
 
 function App() {
 
   return (
-    <>
+    <div>
       <img src={logo} alt="Pineapple Interactive logo" width={'65%'} />
       <div className="card">
         <p>
@@ -15,7 +15,7 @@ function App() {
       <p className="read-the-docs">
         Come back for more!
       </p>
-    </>
+    </div>
     // <div style={{
     //   backgroundColor: 'black',
     //   color: 'lime',
