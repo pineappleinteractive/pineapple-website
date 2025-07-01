@@ -1,10 +1,17 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { useNavigate, Routes, Route } from 'react-router-dom';
 import logo from './assets/plogo.png'
-import './App.css'
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import './App.css';
 
 function App() {
 
   return (
+    <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+    </Routes>
     // <div>
     //   <img src={logo} alt="Pineapple Interactive logo" width={'65%'} />
     //   {/* <div className="card"> */}
@@ -16,14 +23,6 @@ function App() {
     //     Come back for more!
     //   </p>
     // </div>
-    <div style={{
-      backgroundColor: 'black',
-      color: 'lime',
-      padding: '2rem',
-      fontSize: '2rem'
-    }}>
-      ✅ Pineapple Interactive is LIVE!
-    </div>
   )
 }
 
