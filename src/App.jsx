@@ -9,8 +9,8 @@ function App() {
 
   return (
     <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
+      <Route path="/" element={<Home/>} />
+      <Route path="/about" element={<About/>} />
     </Routes>
     // <div>
     //   <img src={logo} alt="Pineapple Interactive logo" width={'65%'} />
@@ -23,7 +23,7 @@ function App() {
     //     Come back for more!
     //   </p>
     // </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
